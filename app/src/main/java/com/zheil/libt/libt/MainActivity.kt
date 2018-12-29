@@ -2,7 +2,7 @@ package com.zheil.libt.libt
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import com.zheil.libt.mylibrary.Libr
+
 
 class MainActivity : AppCompatActivity() {
 
@@ -10,6 +10,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val test = Libr().toast(this)
+        //val test = Libr().toast(this)
+
     }
 }
